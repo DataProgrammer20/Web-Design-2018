@@ -23,6 +23,7 @@ body {
     height: 150px;
 }
 #navBar {
+    position: fixed;
     width: 1135px;
     margin: 60px auto 62px auto;
     display: inline-block;
