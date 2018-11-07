@@ -37,6 +37,9 @@ body {
     float: left;
     margin-right: 95px;
 }
+#active {
+    color: #E06C58;
+}
 .navLink {
     font-size: 20px;
     text-transform: uppercase;
