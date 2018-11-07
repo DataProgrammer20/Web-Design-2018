@@ -1,11 +1,25 @@
 body {
     background: url("../images/background.jpg") no-repeat;
-
 }
 
 #logo {
 
 }
+#navBar {
+    float: left;
+}
+#navList {
+
+}
 #header {
 
+}
+.navItem {
+
+}
+.navLink {
+
+}
+.clear {
+    clear: both;
 }
