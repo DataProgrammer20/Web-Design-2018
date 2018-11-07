@@ -19,7 +19,11 @@ body {
 
 }
 .navLink {
-
+    font-weight: bold;
+    color: #39156E;
+}
+.navLink:hover {
+    color: #E06C58;
 }
 .clear {
     clear: both;
