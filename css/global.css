@@ -6,12 +6,12 @@ body {
 #header {
     background-color: #ffffff;
     height: 160px;
-    opacity: 0.8;
+    opacity: 1 /* or 0.8 */;
 }
 #logoContainer {
     float: left;
     display: inline-block;
-    opacity: 1;
+    /*opacity: 1 !important;*/
     padding-top: 5px;
     padding-bottom: 5px;
     margin-left: 100px;
