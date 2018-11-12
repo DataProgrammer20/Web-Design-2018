@@ -7,6 +7,7 @@ body {
     background-color: #ffffff;
     height: 125px;
     opacity: 1 /* or 0.8 */;
+    top: 0;
 }
 #logoContainer {
     text-align: center;
@@ -27,13 +28,11 @@ body {
 }
 #navBar {
     overflow: hidden;
-    position: fixed;
-    top: 0;
+    position: absolute;
     margin: 35px auto;
     height: 55px;
     display: inline-block;
     float: left;
-
 }
 #navList {
     margin-left: 40px;
