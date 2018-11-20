@@ -1,13 +1,14 @@
-body {
-    background: url("../images/background.jpg") no-repeat;
-    margin: 0;
-    padding: 0;
-}
 #header {
     background-color: #ffffff;
     height: 125px;
+    margin: 0 auto;
     opacity: 1 /* or 0.8 */;
     top: 0;
+}
+#headerContainer {
+    position: absolute;
+    margin: 0 auto;
+    width: 1518px;
 }
 #logoContainer {
     text-align: center;
@@ -22,9 +23,9 @@ body {
 }
 #logo {
     display: block;
-    margin: 5px auto;
-    width: 220px;
-    height: 95px;
+    margin: 15px auto 0 auto;
+    width: 160px;
+    height: 75px;
 }
 #navBar {
     overflow: hidden;
@@ -73,4 +74,3 @@ body {
     font-weight: bold;
     font-size: 22px;
 }
-

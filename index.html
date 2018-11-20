@@ -10,39 +10,46 @@
 <body>
 <div id="container"> <!-- page content container -->
     <header id="header"> <!-- page header -->
-        <div id="logoContainer">
-            <a href="index.html"> <!-- optional: logo acts as home anchor -->
-                <img id="logo" src="images/spaceCubeLogo.png">
-            </a>
+        <div id="headerContainer">
+            <div id="logoContainer">
+                <a href="index.html"> <!-- optional: logo acts as home anchor -->
+                    <img id="logo" src="images/spaceCubeLogo.png">
+                </a>
+            </div>
+            <nav id="navBar">
+                <ul id="navList">
+                    <li class="navItem"><a id="active" class="navLink" href="index.html">Home</a></li>
+                    <li class="navItem"><a class="navLink" href="html/projects.html">Projects</a></li>
+                    <li class="navItem"><a class="navLink" href="html/services.html">Services</a></li>
+                    <li class="navItem"><a class="navLink" href="html/locations.html">Locations</a></li>
+                    <li class="navItem"><a class="navLink" href="html/maintenance.html">About Us</a></li>
+                    <li class="navItem"><a class="navLink" href="html/maintenance.html">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav id="navBar">
-            <ul id="navList">
-                <li class="navItem"><a id="active" class="navLink" href="index.html">Home</a></li>
-                <li class="navItem"><a class="navLink" href="html/projects.html">Projects</a></li>
-                <li class="navItem"><a class="navLink" href="html/services.html">Services</a></li>
-                <li class="navItem"><a class="navLink" href="html/locations.html">Locations</a></li>
-                <li class="navItem"><a class="navLink" href="html/aboutUs.html">About Us</a></li>
-                <li class="navItem"><a class="navLink" href="html/contact.html">Contact</a></li>
-            </ul>
-        </nav>
     </header> <!-- page header -->
     <div class="clear"></div> <!-- clear floats -->
     <div id="content"> <!-- page content -->
-        <div class="spacer"></div>
-        <div class="col-3">
-            <img class="col-3-image" src="images/backgroundOption11.jpg" alt="Brick Wall">
-            <p class="col-3-text">Observer the majestic buildings of Paris! We built some of these things you know! How amazing! How very Wonderful they are to look at!</p>
+        <div class="columnContainer">
+            <div class="spacer"></div>
+            <div class="col-3">
+                <img class="col-3-image" src="images/backgroundOption11.jpg" alt="Brick Wall">
+                <h3 class="col-3-header">Buildings of Paris</h3>
+                <p class="col-3-text">Observer the majestic buildings of Paris! We built some of these things you know! How amazing! How very Wonderful they are to look at!</p>
+            </div>
+            <div class="col-3">
+                <img class="col-3-image" src="images/backgroundOption12.jpg" alt="Wall paper">
+                <h3 class="col-3-header">Unmatched Ability</h3>
+                <p class="col-3-text">Observer the awesome power of our design skills! There is nobody who can match our ability!</p>
+            </div>
+            <div class="col-3">
+                <img class="col-3-image" src="images/backgroundOption9.jpeg">
+                <h3 class="col-3-header">The Home Land</h3>
+                <p class="col-3-text">The beautiful city of Montana! Just kidding, Montana doesn't have water side property like this anywhere!</p>
+            </div>
+            <div class="clear"></div>
+            <div class="spacer"></div>
         </div>
-        <div class="col-3">
-            <img class="col-3-image" src="images/backgroundOption12.jpg" alt="Wall paper">
-            <p class="col-3-text">Observer the awesome power of our design skills! There is nobody who can match our ability!</p>
-        </div>
-        <div class="col-3">
-            <img class="col-3-image" src="images/backgroundOption9.jpeg">
-            <p class="col-3-text">The beautiful city of Montana! Just kidding, Montana doesn't have water side property like this anywhere!</p>
-        </div>
-        <div class="clear"></div>
-        <div class="spacer"></div>
     </div> <!-- page content -->
     <footer id="footer"> <!-- page footer -->
         <div id="footerContent">
