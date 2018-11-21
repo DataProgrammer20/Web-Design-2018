@@ -1,0 +1,27 @@
+body {
+    background: url("../images/background.jpg") no-repeat;
+    margin: 0;
+    padding: 0;
+}
+.spacer {
+    height: 50px;
+}
+#content {
+    width: 1500px;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+}
+#noticeContainer {
+    background-color: #ffffff;
+    width: 600px;
+    margin: 200px auto;
+}
+#noticeHeader {
+    text-align: center;
+    margin: 5px auto;
+}
+#noticeText {
+    font-size: 18px;
+    text-align: left;
+}
