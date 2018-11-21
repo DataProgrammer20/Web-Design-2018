@@ -1,3 +1,42 @@
+body {
+    background: url("../images/background.jpg") no-repeat;
+    margin: 0;
+    padding: 0;
+}
 .spacer {
     height: 50px;
+}
+#content {
+    width: 1500px;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+}
+#projectContainer {
+    width: 1300px;
+    margin: 0 auto;
+}
+.project {
+    background-color: #ffffff;
+    border-radius: 3px;
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 25px 25px 15px 25px;
+}
+.projectImage {
+    border-radius: 3px;
+    text-align: center;
+    width: 200px;
+    height: 100px;
+}
+.projectHeading {
+    padding-left: 5px;
+    text-align: left;
+    margin: 5px auto;
+}
+.projectText {
+    padding-left: 5px;
+    text-align: left;
+    font-size: 14px;
 }
