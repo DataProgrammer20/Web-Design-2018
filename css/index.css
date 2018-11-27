@@ -1,10 +1,9 @@
 body {
-    background: url("../images/background.jpg") no-repeat;
     margin: 0;
     padding: 0;
 }
 #content {
-    width: 1500px;
+    width: 100%;
     margin: 0 auto 0 auto;
     text-align: center;
     justify-content: center;
@@ -38,3 +37,43 @@ body {
     text-align: center;
     margin: 10px auto;
 }
+.columnContainer {
+    background-color: #f6f6f6;
+}
+.heroContainer {
+    background: url("../images/background.jpg") no-repeat center;
+    height: 85vh;
+    width: 100%;
+    text-align: center;
+}
+.heroSpacer {
+    height: 10vh;
+}
+@media screen and (min-height: 360px) {
+    .heroTextContainer {
+        width: 1000px;
+        margin: 10vh auto;
+    }
+}
+@media screen and (max-height: 360px) {
+    .heroTextContainer {
+        display: none;
+    }
+}
+#heroHeading {
+    font-size: 40px;
+    margin: 20px 0;
+}
+#heroSecondaryHeading {
+    font-size: 35px;
+    width: 70%;
+    margin: 5px auto;
+}
+#heroParagraph {
+    font-size: 16px;
+    width: 50%;
+    margin: 15px auto;
+}
+
+
+
