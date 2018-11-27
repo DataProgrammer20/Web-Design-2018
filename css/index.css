@@ -38,9 +38,9 @@ body {
     margin: 10px auto;
 }
 .columnContainer {
-    background-color: #f6f6f6;
+    background-color: #ededed;
 }
-.heroContainer {
+#heroContainer {
     background: url("../images/background.jpg") no-repeat center;
     height: 85vh;
     width: 100%;
@@ -49,22 +49,27 @@ body {
 .heroSpacer {
     height: 10vh;
 }
-@media screen and (min-height: 360px) {
-    .heroTextContainer {
+@media screen and (min-height: 330px) {
+    #heroTextContainer {
         width: 1000px;
         margin: 10vh auto;
     }
 }
-@media screen and (max-height: 360px) {
-    .heroTextContainer {
+@media screen and (max-height: 330px) {
+    #heroTextContainer {
+        display: none;
+    }
+    #buttonContainer {
         display: none;
     }
 }
 #heroHeading {
+    color: #ffffff;
     font-size: 40px;
     margin: 20px 0;
 }
 #heroSecondaryHeading {
+    color: #ffffff;
     font-size: 35px;
     width: 70%;
     margin: 5px auto;
@@ -73,6 +78,31 @@ body {
     font-size: 16px;
     width: 50%;
     margin: 15px auto;
+}
+
+#buttonContainer {
+    height: 100px;
+    margin-top: 25px;
+}
+
+.button {
+    border: solid #ffffff;
+    border-radius: 5px;
+    padding: 10px 35px;
+    color: #ffffff;
+    font-size: 20px;
+    margin-right: 35px;
+    margin-left: 35px;
+}
+.buttonLink {
+    text-decoration: none;
+    color: #ffffff;
+}
+.button:hover {
+    background-color: #000000;
+}
+.buttonLink:hover {
+    text-decoration: none;
 }
 
 
