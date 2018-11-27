@@ -12,29 +12,29 @@ body {
 .spacer {
     height: 50px;
 }
-.col-3 {
+.col-4 {
     border-radius: 10px;
     background-color: #ffffff;
     opacity: 1;
     float: left;
-    width: 400px;
-    height: 625px;
-    margin: 25px 43px 10px 43px;
+    width: 300px;
+    height: 375px;
+    margin: 25px 20px 10px 35px;
     padding: 7px 7px 7px 7px;
 }
-.col-3-image {
+.col-4-image {
     border-radius: 5px;
     margin: 0;
     padding: 0;
-    height: 500px;
-    width: 400px;
+    height: 225px;
+    width: 300px;
 }
-.col-3-text {
+.col-4-text {
     text-align: center;
     font-size: 18px;
     margin: 12px 5px
 }
-.col-3-header {
+.col-4-header {
     text-align: center;
     margin: 10px auto;
 }
