@@ -1,9 +1,5 @@
 body {
-    background: url("../images/background.jpg") no-repeat;
-    margin: 0;
-    padding: 0;
-}
-html {
+    /*background: url("../images/background.jpg") no-repeat;*/
     margin: 0;
     padding: 0;
 }
@@ -11,14 +7,28 @@ html {
     height: 50px;
 }
 #content {
-    width: 1500px;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
     justify-content: center;
 }
-#projectContainer {
-    width: 1300px;
-    margin: 0 auto;
+#residentialProjects {
+    background: url("../images/background.jpg") no-repeat center;
+    height: 600px;
+}
+#commercialProjects {
+    background: url("../images/background.jpg") no-repeat center;
+    height: 600px;
+}
+
+.projectContainer {
+
+}
+.projectHeader {
+    color: #ffffff;
+    text-align: left;
+    margin: 0;
+    padding: 25px 25px;
 }
 .project {
     background-color: #ffffff;
