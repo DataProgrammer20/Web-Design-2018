@@ -6,10 +6,39 @@ body {
 .spacer {
     height: 50px;
 }
-
 #content {
-    width: 1500px;
-    margin: 0 auto;
+    width: 100%;
+    margin: 0 auto 0 auto;
     text-align: center;
     justify-content: center;
+}
+h1{
+    color: #ffffff;
+}
+
+.col-4 {
+    border-radius: 10px;
+    background-color: #ffffff;
+    opacity: 1;
+    float: left;
+    width: 300px;
+    height: 375px;
+    margin: 25px 20px 10px 35px;
+    padding: 7px 7px 7px 7px;
+}
+.col-4-image {
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+    height: 225px;
+    width: 300px;
+}
+.col-4-text {
+    text-align: center;
+    font-size: 15px;
+    margin: 12px 5px
+}
+.col-4-header {
+    text-align: center;
+    margin: 10px auto;
 }
