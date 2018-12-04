@@ -6,17 +6,19 @@ body {
     height: 50px;
 }
 #content {
-    background: url("../images/background.jpg") no-repeat center;
+    /*background: url("../images/background.jpg") no-repeat center;*/
     width: 100%;
     margin: 0 auto;
     text-align: center;
     justify-content: center;
 }
 #residentialProjects {
+    background: url("../images/background.jpg") no-repeat center;
     padding: 50px 20px;
     height: 600px;
 }
 #commercialProjects {
+    background: url("../images/background.jpg") no-repeat center;
     padding: 50px 20px;
     height: 600px;
 }
