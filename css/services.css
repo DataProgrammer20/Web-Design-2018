@@ -34,11 +34,32 @@ h1{
     width: 300px;
 }
 .col-4-text {
-    text-align: center;
+    text-align: left;
     font-size: 15px;
     margin: 12px 5px
 }
 .col-4-header {
+    text-align: center;
+    margin: 10px auto;
+}
+
+.col-3 {
+    border-radius: 10px;
+    background-color: #ffffff;
+    opacity: 1;
+    float: left;
+    width:60%;
+    height: 200px;
+    margin: 25px 20px 10px 35px;
+    padding: 7px 7px 7px 7px;
+}
+
+.col-3-text {
+    text-align: left;
+    font-size: 15px;
+    margin: 12px 5px
+}
+.col-3-header {
     text-align: center;
     margin: 10px auto;
 }

@@ -38,10 +38,10 @@ body {
     margin: 10px auto;
 }
 .columnContainer {
-    background-color: #ededed;
+    background-color: #ebebeb;
 }
 #heroContainer {
-    background: url("../images/background2.jpg") no-repeat center;
+    background: url("../images/background3.jpg") no-repeat center;
     height: 85vh;
     width: 100%;
     text-align: center;
