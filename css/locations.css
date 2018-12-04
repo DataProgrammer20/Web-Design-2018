@@ -40,8 +40,23 @@ body {
     width: 900px;
 }
 .locationImage {
+    display: inline-block;
+    float: left;
     height: 200px;
     width: 200px;
+}
+.locationParaHeader {
+    width: 500px;
+    margin: 10px 0 15px 40px;
+    float: left;
+    display: inline-block;
+
+}
+.locationPara {
+    margin: 0 40px;
+    float: left;
+    display: inline-block;
+    width: 500px;
 }
 
 
