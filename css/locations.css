@@ -11,20 +11,52 @@ body {
     margin: 0 auto;
     text-align: center;
     justify-content: center;
+    height: 800px;
 }
-#residentialProjects {
-    background: url("../images/space.jpg") no-repeat center;
-    padding: 50px 0 25px 0;
+#locationContainer {
     height: 600px;
-    margin-bottom: 2px;
-    border-bottom: #d0d0d0 solid;
-}
-.locationContainer {
+    width: 1000px;
+    padding: 50px 0 25px 0;
     margin: 0 auto;
 }
 .locationHeader {
-    color: #ffffff;
+    color: #000000;
     text-align: left;
     margin: 0;
-    padding: 25px 25px 0 70px;
+    padding: 25px 0 5px 80px;
 }
+.location {
+    background: #ffffff;
+    border-radius: 5px;
+    height: 600px;
+    width: 1000px;
+    margin: 50px auto;
+}
+.locationSection {
+    text-align: left;
+    padding-left: 80px;
+    margin: 30px 0 20px 0;
+    height: 200px;
+    width: 900px;
+}
+.locationImage {
+    display: inline-block;
+    float: left;
+    height: 200px;
+    width: 200px;
+}
+.locationParaHeader {
+    width: 500px;
+    margin: 10px 0 15px 40px;
+    float: left;
+    display: inline-block;
+
+}
+.locationPara {
+    margin: 0 40px;
+    float: left;
+    display: inline-block;
+    width: 500px;
+}
+
+
