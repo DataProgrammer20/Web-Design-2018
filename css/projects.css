@@ -6,19 +6,25 @@ body {
     height: 50px;
 }
 #content {
-    background: url("../images/background.jpg") no-repeat center;
+    /*background: url("../images/background.jpg") no-repeat center;*/
     width: 100%;
     margin: 0 auto;
     text-align: center;
     justify-content: center;
 }
 #residentialProjects {
-    padding: 50px 20px;
+    background: url("../images/space.jpg") no-repeat center;
+    padding: 50px 0 25px 0;
     height: 600px;
+    margin-bottom: 2px;
+    border-bottom: #d0d0d0 solid;
 }
 #commercialProjects {
-    padding: 50px 20px;
+    background: url("../images/background.jpg") no-repeat center;
+    padding: 50px 0 25px 0;
     height: 600px;
+    margin-top: 2px;
+    border-top: #d0d0d0 solid;
 }
 
 .proContainer {
