@@ -57,6 +57,7 @@ body {
     text-align: center;
     width: 200px;
     height: 100px;
+
 }
 .projectHeading {
     padding-left: 5px;
@@ -72,4 +73,5 @@ body {
     opacity: 0.7;
     transition: 0.3s;
 }
+
 
