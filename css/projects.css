@@ -1,5 +1,4 @@
 body {
-    /*background: url("../images/background.jpg") no-repeat;*/
     margin: 0;
     padding: 0;
 }
@@ -7,33 +6,42 @@ body {
     height: 50px;
 }
 #content {
+    background: url("../images/background.jpg") no-repeat center;
     width: 100%;
     margin: 0 auto;
     text-align: center;
     justify-content: center;
 }
 #residentialProjects {
-    background: url("../images/background.jpg") no-repeat center;
+    padding: 50px 20px;
     height: 600px;
 }
 #commercialProjects {
-    background: url("../images/background.jpg") no-repeat center;
+    padding: 50px 20px;
     height: 600px;
 }
 
-.projectContainer {
+.proContainer {
+    margin: 0 auto;
+}
 
+.projectContainer {
+    border-radius: 5px;
+    background-color: #ffffff;
+    height: 580px;
+    width: 75%;
+    margin: 0 auto;
 }
 .projectHeader {
-    color: #ffffff;
+    color: #000000;
     text-align: left;
     margin: 0;
-    padding: 25px 25px;
+    padding: 25px 25px 0 70px;
 }
 .project {
+    display: inline-block;
     background-color: #ffffff;
     border-radius: 3px;
-    float: left;
     width: 200px;
     height: 200px;
     margin: 25px 25px 15px 25px;
