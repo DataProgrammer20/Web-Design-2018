@@ -9,23 +9,25 @@
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
 </head>
 <body>
-<div> <!-- page content container -->
+<div class="container"> <!-- page content container -->
     <header id="header"> <!-- page header -->
-        <div id="logoContainer">
-            <a href="../index.html"> <!-- optional: logo acts as home anchor -->
-                <img id="logo" src="../images/spaceCubeLogo.png">
-            </a>
+        <div id="headerContainer">
+            <div id="logoContainer">
+                <a href="../index.html"> <!-- optional: logo acts as home anchor -->
+                    <img id="logo" src="../images/spaceCubeLogo.png">
+                </a>
+            </div>
+            <nav id="navBar">
+                <ul id="navList">
+                    <li class="navItem"><a class="navLink" href="../index.html">Home</a></li>
+                    <li class="navItem"><a class="navLink" href="projects.html">Projects</a></li>
+                    <li class="navItem"><a id="active" class="navLink" href="services.html">Services</a></li>
+                    <li class="navItem"><a class="navLink" href="locations.html">Locations</a></li>
+                    <li class="navItem"><a class="navLink" href="#">About Us</a></li>
+                    <li class="navItem"><a class="navLink" href="#">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav id="navBar">
-            <ul id="navList">
-                <li class="navItem"><a class="navLink" href="../index.html">Home</a></li>
-                <li class="navItem"><a class="navLink" href="projects.html">Projects</a></li>
-                <li class="navItem"><a id="active" class="navLink" href="services.html">Services</a></li>
-                <li class="navItem"><a class="navLink" href="locations.html">Locations</a></li>
-                <li class="navItem"><a class="navLink" href="#">About Us</a></li>
-                <li class="navItem"><a class="navLink" href="#">Contact</a></li>
-            </ul>
-        </nav>
     </header> <!-- page header -->
     <div class="clear"></div> <!-- clear floats -->
     <div id="content">

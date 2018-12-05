@@ -5,7 +5,7 @@ body {
     background-color: #ffffff;
     height: 125px;
     margin: 0 auto;
-    opacity: 1 /* or 0.8 */;
+    opacity: 1;
     top: 0;
 }
 #headerContainer {
@@ -17,7 +17,6 @@ body {
     text-align: center;
     float: left;
     display: inline-block;
-    /*opacity: 1 !important;*/
     padding-top: 5px;
     padding-bottom: 5px;
     margin-left: 100px;
@@ -63,10 +62,8 @@ body {
     clear: both;
 }
 #footer {
-    /*position: absolute;*/
     display: block;
     background-color: #ffffff;
-    /*margin-top: 100px;*/
     height: 80px;
     text-align: center;
 }
