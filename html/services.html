@@ -9,23 +9,25 @@
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
 </head>
 <body>
-<div> <!-- page content container -->
+<div class="container"> <!-- page content container -->
     <header id="header"> <!-- page header -->
-        <div id="logoContainer">
-            <a href="../index.html"> <!-- optional: logo acts as home anchor -->
-                <img id="logo" src="../images/spaceCubeLogo.png" alt="logo image">
-            </a>
+        <div id="headerContainer">
+            <div id="logoContainer">
+                <a href="../index.html"> <!-- optional: logo acts as home anchor -->
+                    <img id="logo" src="../images/spaceCubeLogo.png">
+                </a>
+            </div>
+            <nav id="navBar">
+                <ul id="navList">
+                    <li class="navItem"><a class="navLink" href="../index.html">Home</a></li>
+                    <li class="navItem"><a class="navLink" href="projects.html">Projects</a></li>
+                    <li class="navItem"><a id="active" class="navLink" href="services.html">Services</a></li>
+                    <li class="navItem"><a class="navLink" href="locations.html">Locations</a></li>
+                    <li class="navItem"><a class="navLink" href="#">About Us</a></li>
+                    <li class="navItem"><a class="navLink" href="#">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav id="navBar">
-            <ul id="navList">
-                <li class="navItem"><a class="navLink" href="../index.html">Home</a></li>
-                <li class="navItem"><a class="navLink" href="projects.html">Projects</a></li>
-                <li class="navItem"><a id="active" class="navLink" href="services.html">Services</a></li>
-                <li class="navItem"><a class="navLink" href="locations.html">Locations</a></li>
-                <li class="navItem"><a class="navLink" href="#">About Us</a></li>
-                <li class="navItem"><a class="navLink" href="#">Contact</a></li>
-            </ul>
-        </nav>
     </header> <!-- page header -->
     <div class="clear"></div> <!-- clear floats -->
     <div id="content">
@@ -33,7 +35,7 @@
             <h2 class="ServicesHeader">Services</h2>
             <div class="Services-Col">
                 <div class="ServicesSection">
-                    <img class="ServicesImage" src="../images/house10.jpg" alt="house">
+                    <img class="ServicesImage" src="../images/house10.jpg" alt="image">
                     <h3 class="ServicesParaHeader">Residential</h3>
                     <p class="ServicesPara">
                         Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -47,7 +49,7 @@
             </div>
             <div class="Services-Col">
                 <div class="ServicesSection">
-                    <img class="ServicesImage" src="../images/commercial6.jpg" alt="commercial6">
+                    <img class="ServicesImage" src="../images/commercial6.jpg" alt="image">
                     <h3 class="ServicesParaHeader">Commercial</h3>
                     <p class="ServicesPara">
                         Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -61,7 +63,7 @@
             </div>
             <div class="Services-Col">
                 <div class="ServicesSection">
-                    <img class="ServicesImage" src="../images/sport.jpg" alt="sport">
+                    <img class="ServicesImage" src="../images/sport.jpg" alt="image">
                     <h3 class="ServicesParaHeader">Recreational</h3>
                     <p class="ServicesPara">
                         Lorem ipsum dolor sit amet, consectetur adipiscing

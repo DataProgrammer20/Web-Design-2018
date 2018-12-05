@@ -11,15 +11,15 @@ body {
     margin: 0 auto;
     text-align: center;
     justify-content: center;
-    height: 750px;
+    height: 800px;
 }
-#ServicesContainer{
+#ServicesContainer {
     height: 600px;
     width: 90%;
     padding: 30px 0 25px 0;
     margin: 0 auto;
 }
-.Services-Col{
+.Services-Col {
     background-color: #ffffff;
     border-radius: 5px;
     height: 500px;
@@ -27,20 +27,20 @@ body {
     margin: 40px 20px;
     float: left;
 }
-.ServicesHeader{
+.ServicesHeader {
     color: #ffffff;
     font-size: 35px;
     margin: 10px auto;
 }
-.ServicesImage{
+.ServicesImage {
     width: 80%;
     height: 300px;
     padding-top: 10px;
 }
-.ServicesParaHeader{
+.ServicesParaHeader {
     margin: 10px auto;
 }
-.ServicesPara{
+.ServicesPara {
     margin:  0 8px;
     text-align: left;
 }
