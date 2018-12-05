@@ -12,35 +12,38 @@ body {
     text-align: center;
     justify-content: center;
 }
-h1{
-    color: #ffffff;
-    text-align: center;
+#ServicesContainer{
+    height: 600px;
+    width: 90%;
+    padding: 30px 0 25px 0;
+    margin: 0 auto;
+}
+.Services-Col{
+    background-color: #ffffff;
+    border-radius: 5px;
+    height: 500px;
+    width: 30%;
+    margin: 40px 20px;
+    float: left;
+
 }
 
-.col-4 {
-    border-radius: 10px;
-    background-color: #ffffff;
-    opacity: 1;
-    float: left;
-    width: 300px;
-    height: 375px;
-    margin: 25px 20px 10px 35px;
-    padding: 7px 7px 7px 7px;
+
+.ServicesHeader{
+    color: #ffffff;
+    font-size: 35px;
+    margin: 10px auto;
+
 }
-.col-4-image {
-    border-radius: 5px;
-    margin: 0;
-    padding: 0;
-    height: 225px;
-    width: 300px;
+.ServicesImage{
+    width: 80%;
+    height: 300px;
+    padding-top: 10px;
 }
-.col-4-text {
-    text-align: left;
-    font-size: 15px;
-    margin: 12px 5px
-}
-.col-4-header {
-    text-align: center;
+.ServicesParaHeader{
     margin: 10px auto;
 }
-
+.ServicesPara{
+    margin:  0 8px;
+    text-align: left;
+}
